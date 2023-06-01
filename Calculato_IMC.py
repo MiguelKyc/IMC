@@ -1,0 +1,5 @@
+peso = int(input("inserta tu peso: "))
+altura = float(input("inserta tu altura en metros: "))
+resultado = peso / (altura  * altura)
+resultado = "{:.2f}".format(resultado)
+print(f'Tu índice de masa corporal es {resultado}')
